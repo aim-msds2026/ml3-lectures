@@ -1,0 +1,15 @@
+name: msds2026-ml3-macos
+channels:
+  - conda-forge
+  - defaults
+  - nvidia
+dependencies:
+  - ipykernel=7.2.0
+  - python=3.11.15
+  - pip=26.0.1
+  - jupyterlab=4.5.6
+  - pip:
+    - -r requirements.txt
+    - openpyxl
+    - matplotlib
+    - seaborn

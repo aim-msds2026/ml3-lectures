@@ -1,0 +1,14 @@
+name: msds2026-ml3-cnn
+channels:
+  - conda-forge
+  - defaults
+  - nvidia
+dependencies:
+  - ipykernel
+  - python=3.11.15
+  - pip
+  - pip:
+    - -r requirements.txt
+    - openpyxl
+    - matplotlib
+    - seaborn
